@@ -8,42 +8,31 @@ function App() {
   return (
     <div>
       <CardDeck>
-        <Card>
+        <Card bg="secondary" text="white">
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
+            <Card.Title>Cases</Card.Title>
+            <Card.Text>1000</Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small>Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card bg="danger" text={"white"} className="text-center">
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
+            <Card.Title>Deaths</Card.Title>
+            <Card.Text>33</Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small>Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
+        <Card bg="success" text={"white"} className="text-center">
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
+            <Card.Title>Recovered</Card.Title>
+            <Card.Text>12</Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small>Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
       </CardDeck>
